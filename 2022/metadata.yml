@@ -1,6 +1,6 @@
 Git:
 - name: Git Workshop
-  date: '2022-11-06'
+  date: '11-06'
   host:
   - Manjoy Malhotra
   description: "Have you been struggling to start contributing to our Open Source
@@ -15,7 +15,7 @@ Git:
 
 Frontend:
 - name: 'CSSC × GDSC: Frontend Workshop'
-  date: '2022-11-18'
+  date: '11-18'
   host:
   - Giang Bui
   - Brian Zhang
@@ -28,7 +28,7 @@ Frontend:
 
 Backend:
 - name: 'CSSC × GDSC: Backend Workshop'
-  date: '2022-11-28'
+  date: '11-28'
   host:
   - Manjoy Malhotra
   - Manav Bhojak
@@ -38,7 +38,7 @@ Backend:
   slides: Express.pdf
 Database and DevOps:
 - name: DevOps Workshop Part 1
-  date: '2022-01-20'
+  date: '01-20'
   host:
   - Daniel Laufer
   description: Learn all about DevOps, and get the chance to set up automated deployment
@@ -46,7 +46,7 @@ Database and DevOps:
   code: https://github.com/utmgdsc/devops-part-1
   slides: DevOps Workshop Part 1.pdf
 - name: Docker Workshop
-  date: '2022-03-11'
+  date: '03-11'
   host:
   - Daniel Laufer
   - Ritvik Bhardwaj
@@ -56,7 +56,7 @@ Database and DevOps:
 
 Machine Learning:
 - name: Machine Learning Workshop 1
-  date: '2022-10-25'
+  date: '10-25'
   host:
   - Riddhesh Shah
   description: First of a series of machine learning workshops. Introduction to basic
@@ -69,7 +69,7 @@ Machine Learning:
     All you need is some basic python knowledge and a laptop.
   code: https://www.kaggle.com/learn/intro-to-machine-learning
 - name: 'Playing God: controlling the perception of AI'
-  date: '2022-11-04'
+  date: '11-04'
   host:
   - Riddhesh Shah
   description: The workshop will include an explanation of feature engineering topics,
@@ -78,7 +78,7 @@ Machine Learning:
     Encoding labs.
   code: https://www.kaggle.com/learn/feature-engineering
 - name: 'Computer Vision: See How Computers See'
-  date: '2022-11-22'
+  date: '11-22'
   host:
   - Riddhesh Shah
   description: This workshop will include learning about convolutional neural networks
@@ -89,7 +89,7 @@ Machine Learning:
 
 Miscellaneous:
 - name: Game Development Workshop
-  date: '2022-03-31'
+  date: '03-31'
   host:
   - Manushree Saboo
   description: In this beginner-friendly workshop, we will go through what Unity is,
