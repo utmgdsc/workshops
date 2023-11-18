@@ -1,38 +1,32 @@
 ---
 permalink: /all.yml
 ---
-{%- assign accumulator = "" -%}
+{%- assign newline = site.newline -%}
+{%- assign output = "" -%}
+
 {%- for file in site.static_files -%}
     {%- if file.extname == ".yml" -%}
         {%- capture _content -%}
             {% include_relative {{ file.path }} %}
         {%- endcapture -%}
 
-        {%- assign year = file.path | remove_first: "/" | truncate: 4, "" | append: ":" -%}
+        {%- assign year = file.path | remove_first: "/" | slice: 0, 4 | append: ":" -%}
 
-        {%- assign accumulator = accumulator | append: year | append: site.newline -%}
+        {%- assign output = output | append: year | append: newline -%}
 
-        {%- assign content = _content | split: site.newline -%}
+        {%- assign content = _content | split: newline -%}
 
         {%- for line in content -%}
-            {%- assign first_char = line | upcase | truncate: 1, "" -%}
+            {%- assign first_char = line | upcase | slice: 0 -%}
 
-            {% comment %}
-                this is the hack of the century. if we check that the first character is a letter, then we
-                know that it's a key, and we must prepend it with a dash and two spaces. otherwise, it's a
-                the value of a key, and we must prepend it with four spaces.
-
-                i hate it too.
-            {% endcomment %}
-
-            {%- if first_char == "A" or first_char == "B" or first_char == "C" or first_char == "D" or first_char == "E" or first_char == "F" or first_char == "G" or first_char == "H" or first_char == "I" or first_char == "J" or first_char == "K" or first_char == "L" or first_char == "M" or first_char == "N" or first_char == "O" or first_char == "P" or first_char == "Q" or first_char == "R" or first_char == "S" or first_char == "T" or first_char == "U" or first_char == "V" or first_char == "W" or first_char == "X" or first_char == "Y" or first_char == "Z" -%}
-                {%- assign accumulator = accumulator | append: "  - " | append: line |  append: site.newline -%}
+            {%- if first_char >= "A" and first_char <= "Z" -%}
+                {%- assign output = output | append: "  - " | append: line | append: newline -%}
             {%- else -%}
-                {%- assign accumulator = accumulator | append: "    " | append: line |  append: site.newline -%}
+                {%- assign output = output | append: "    " | append: line | append: newline -%}
             {%- endif -%}
         {%- endfor -%}
 
     {%- endif -%}
 {%- endfor -%}
 
-{{ accumulator }}
+{{ output }}
