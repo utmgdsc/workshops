@@ -1,0 +1,188 @@
+Frontend:
+- name: UX/UI Workshop
+  date: '2023-01-28'
+  host:
+  - Jackson Lee
+  - Paris Phan
+  - Ido Ben Haim
+  description: Unlock the power of design thinking to create meaningful connections
+    between people and products.
+  code: https://www.figma.com/proto/lXoTOFqVH34ua9J9kWpKLj/Basic-E-Commerce-Website?node-id=2%3A3&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A3
+  slides: UXUI Workshop Slides.pdf
+- name: 'CSSC x GDSC: Frontend Workshop'
+  date: '2023-02-02'
+  host:
+  - Brian Zhang
+  description: Are you looking to break into the world of frontend web development
+    but don't know where to start? Look no further!
+  slides: https://www.slideshare.net/GDSCUofTMississauga/htmlcssjs-workshop
+- name: 'ICCIT Council × GDSC: UX / UI and Figma'
+  date: '2023-09-29'
+  host:
+  - Jackson Lee
+  - Joshua Tan
+  - Jasmine Bittu
+  description: "✨Unlock Your Creative Potential with Figma! Get ready to dive into
+    the world of UI/UX design with our exciting workshop in collaboration with the
+    ICCIT Council.\n\nWhether you're a complete beginner or already have some design
+    experience, this event is tailored just for you!\n\nThis event will cover creating
+    accessible user interfaces design using Figma, and basic user experience principles
+    that are usually taught in upper-year CCIT courses. No prior experience is required;
+    our goal is to provide a welcoming environment for everyone to learn and grow.
+    Don't miss out on this unique opportunity to enhance your UI/UX skills and connect
+    with like-minded peers. Mark your calendar, invite your friends, and see you there!
+    \U0001F44B"
+  slides: ICCIT Council × GDSC UX UI and Figma.pdf
+  code: https://docs.google.com/document/d/1_RffCPGvmIdWTlblcsDnOzLKyGZER8XJuN9VqN0mORk
+Backend:
+- name: 'CSSC × GDSC: Backend Workshop'
+  date: '2023-02-17'
+  host:
+  - Giang Bui
+  - Daksh Malhotra
+  description: "Get hands-on experience \U0001F60B and learn how to create fast, secure,
+    and scalable backend systems that drive your websites and applications."
+  slides: Backend Workshop - GDSC x CSSC 2023.pdf
+- name: Database Workshop
+  date: '2023-02-20'
+  host:
+  - Ido Ben Haim
+  - Daniyal Bokhari
+  description: Learn how to use MongoDB, a NoSQL database, to store and retrieve data
+    in your applications!
+  code: https://github.com/utmgdsc/2023-database-demo
+  slides: Database Workshop Slides.pdf
+  recording: https://youtu.be/6oZ5z0OTbTA
+- name: DevOps Workshop
+  date: '2023-02-21'
+  host:
+  - Daksh Malhotra
+  description: Learn how to use Docker and Github Actions to deploy your applications!
+  slides: Devops Workshop.pdf
+  recording: https://youtu.be/Fg59YTotccY
+Machine Learning:
+- name: 'CSSC × GDSC: Intro to Machine Learning!'
+  date: '2023-10-06'
+  host:
+  - Aaron Shah
+  - Manav Bhojak
+  description: "\U0001F916 Join us for an exciting ML Workshop! \U0001F680 Dive into
+    the world of Machine Learning, where we'll unravel the mysteries of CNNs, RNNs,
+    Transformers, and more. \U0001F92F\n\nGet ready to embark on a journey of discovery!
+    We'll begin with an easy-to-follow introduction to the fascinating realm of ML.
+    \U0001F4DA\n\n\U0001F6E0️ In our hands-on session, we'll walk you through setting
+    up your environment. No tech hurdles here! \U0001F310\n\n\U0001F50D Then, we'll
+    get down to the nitty-gritty, guiding you through our starter code for a thrilling
+    hands-on example. Together, we'll explore the power of ML in action! \U0001F4A1"
+  slides: CSSC ML Workshop.pdf
+  code: https://github.com/0dm/digit-recognition
+
+Cybersecurity:
+- name: Emotional Support for "48 hours of failure"
+  date: '2023-01-14'
+  host:
+  - Alex Dean Cybulski
+  description: |-
+    Slides from Alex's talk at the CTF, hosted by U of T CTF Team, GDSC UTM, GDSC UTSG, and MCSS.
+
+    Join us in-person or online for our multi-club CTF (Capture-The-Flag) competition, taking place this January 14th and 15th. All beginner, intermediate, and skilled U of T students are welcome to participate in our security-oriented challenges and talks!
+  slides: Emotional Support for 48 hours of failure.pdf
+- name: Web Scraping
+  date: '2023-02-22'
+  host:
+  - Daniyal Bokhari
+  description: Learn how to use Python requests, data structures, and BS4 to parse
+    through HTML and find+manage info!
+  slides: Web Scraping Workshop.pdf
+  recording: https://youtu.be/zMWYC2ai91w
+  code: https://gist.github.com/daniyalb/42106c74afe20f2c442b796dba727d28
+- name: 'MCSS × GDSC: Intro to Cybersecurity Workshop'
+  date: '2023-03-10'
+  host:
+  - Michael Pavle
+  - Ido Ben Haim
+  - Shrey Vakil
+  - Sam Chan
+  description: In this workshop, we will be covering a broad overview of cybersecurity
+    with a hands-on web app challenge for you to get some experience with web vulnerabilities;
+    particularly, OS command injection. This workshop will be beginner-friendly, although
+    if you have JavaScript experience you will better understand some of the code
+    that we present.
+  slides: MCSS × GDSC Intro to Cybersecurity Workshop.pdf
+- name: OWASP Juice Shop Workshop
+  date: '2023-03-24'
+  host:
+  - Michael Pavle
+  description: In this workshop, we will be covering a greater variety of web application
+    vulnerabilities through Juice Shop in the form of a tutorial. In order to develop
+    a deeper understanding of how these vulnerabilities are introduced into the web
+    application, we will also be taking a look under the hood into the source code
+    of the Juice Shop website.
+  slides: Michael's OWASP Juice Shop Workshop.pdf
+  recording: https://youtu.be/8GUwXpUDWhs
+  code: https://github.com/juice-shop/juice-shop
+- name: Reverse Engineering 101
+  date: '2023-04-29'
+  host:
+  - Michael Pavle
+  description: Learn the fundamental tools and skills to take a look under the hood
+    of your favourite programs; we'll be covering compilers, assembly language, and
+    software used to disassemble and analyze executables.
+  slides: Reverse Engineering 101.pdf
+  code: https://github.com/utmgdsc/GDSC_Reversing_Workshop
+- name: 2023 DeerHacks CTF (solutions)
+  date: '2023-04-29'
+  host:
+  - Michael Pavle
+  - Sam Chan
+  - Ido Ben Haim
+  description: Join the DeerHacks CTF and solve cybersecurity puzzles with the opportunity
+    to win a Google Home Mini! Are you ready to test your skills as a computer whiz?
+  code: https://github.com/utmgdsc/deerhacks-2023-ctf
+
+Miscellaneous:
+- name: Make your own Discord Bot
+  date: '2023-02-23'
+  host:
+  - Ido Ben Haim
+  description: Learn how to code your own Discord bot, and learn about the Discord.js
+    API. Learn how to make buttons, dropdown selections, add commands and event listeners,
+    and even make a Discord game!
+  code: https://gist.github.com/gdscbot/bf0d416b7651655ff49c8a922c002503
+  slides: Discord Bot Workshop Slides.pdf
+  recording: https://youtu.be/mVHen_IKykk
+- name: C Workshop
+  date: '2023-02-24'
+  host:
+  - Sam Chan
+  description: 'Learn C concepts such as: structs, typedefs and pointers, manual memory
+    management, stack and heap!'
+  code: https://github.com/utmgdsc/2023-c-workshop
+  slides: Basics of C.pdf
+  recording: https://youtu.be/rT7qVmQpfJg
+- name: Origami Workshop
+  date: '2023-04-29'
+  host:
+  - Estelle Foo-Fat
+  - Leanne Tran
+  description: Origami is a proven tool to help reduce stress and anxiety levels,
+    by engaging the mind in a calming and meditative activity. Folding intricate paper
+    designs can also help improve focus and concentration, allowing you to feel more
+    present and mindful in the moment. Not only will you leave feeling accomplished
+    and relaxed, but you'll also have the opportunity to make new friends and connect
+    with others who share a passion for creativity and mindfulness.
+  slides: GDSC x Deerhacks - Origami Workshop.pdf
+  code: https://www.thesprucecrafts.com/origami-ninja-star-tutorial-4034142
+- name: Fall 2023 Community Projects Info Session
+  date: '2023-08-16'
+  host:
+  - Giang Bui
+  - Chris Lim
+  - Ido Ben Haim
+  - Shubh Bapna
+  description: "Backend hurting your back end? Learn about community projects in our
+    info session!\n\nTopics covered:\n\U0001F538 ‎What are Community Projects?\n\U0001F538
+    ‎Mentor vs. Mentee streams\n\U0001F538 ‎What happens after I'm accepted?\n\U0001F538
+    ‎Group formation\n\U0001F538 ‎Past project examples\n\U0001F538 ‎Q&A time"
+  slides: Community Projects Info Session Fall 2023.pdf
+  recording: https://youtu.be/u7FoOXD8elQ

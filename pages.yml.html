@@ -1,0 +1,8 @@
+---
+permalink: /pages.yml
+---
+{%- for file in site.static_files -%}
+{%- if file.extname == ".yml" -%}
+- {{ site.baseurl }}{{ file.path }}
+{% endif %}
+{%- endfor -%}
