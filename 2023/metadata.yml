@@ -110,8 +110,7 @@ Cybersecurity:
   date: '01-14'
   host:
   - Alex Dean Cybulski
-  description: |-
-    Slides from Alex's talk at the CTF, hosted by U of T CTF Team, GDSC UTM, GDSC UTSG, and MCSS.
+  description: Slides from Alex's talk at the CTF, hosted by U of T CTF Team, GDSC UTM, GDSC UTSG, and MCSS.
 
     Join us in-person or online for our multi-club CTF (Capture-The-Flag) competition, taking place this January 14th and 15th. All beginner, intermediate, and skilled U of T students are welcome to participate in our security-oriented challenges and talks!
   slides: Emotional Support for 48 hours of failure.pdf
