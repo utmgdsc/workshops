@@ -6,6 +6,7 @@ Git:
     - Abdullah Shahid
   description: Don’t know where to start with our Open Source Initiative? Come to our intro to Git workshop! 🐙
 
+
     We’ll be covering the basics of how git works, so whether you have no prior experience or want to sharpen your skills, this workshop is for you. 😎 You’ll be ready to start contributing in no time!
   recording: https://www.youtube.com/watch?v=zKxMsP47p4o
   slides: GDSC Git Workshop.pdf
@@ -99,7 +100,9 @@ Machine Learning:
     - Rahul Ravindran
   description: Are you ready to dive into the world of Machine Learning? Then GDSC UTM is the place for you! 🚀
 
+
     We will be hosting an Introduction to Machine Learning workshop where we’ll dive into the world of data through simple and multiple linear regression. 📈
+
 
     No need to be a math whiz - we’ll break it down in a fun and engaging way. Join us to unlock the power of data and Machine Learning! 🌟
   slides: Linear Regression W1.pdf
