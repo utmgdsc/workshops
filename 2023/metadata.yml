@@ -169,6 +169,50 @@ Cybersecurity:
   description: Join the DeerHacks CTF and solve cybersecurity puzzles with the opportunity
     to win a Google Home Mini! Are you ready to test your skills as a computer whiz?
   code: https://github.com/utmgdsc/deerhacks-2023-ctf
+- name: All the ways your web app can get hacked
+  date: '11-24'
+  host:
+  - Michael Pavle
+  - Sam Chan
+  description: "Join us for a workshop on web application security! We'll be going
+    over common vulnerabilities and how to prevent them, as well as some tips and
+    tricks to help you secure your next web app."
+  recording: https://www.youtube.com/watch?v=VzZdTNjJQaA
+
+Panels:
+- name: How to Plan and Advance Your Career in Tech
+  date: '11-24'
+  host:
+  - Chris Lim
+  - Nivy Kani
+  - Bruno Capuano
+  description: "Join us for a panel discussion with industry professionals from Google,
+    Microsoft, and Amazon to learn about their experiences and advice on how to plan
+    and advance your career in tech!"
+  recording: https://www.youtube.com/watch?v=Mw5r-57RE6c
+  slides: Devfest - Career Panel.pdf
+- name: Internship/New Grad Panel Talk
+  date: '11-24'
+  host:
+  - Ethan Lam
+  - Axel Visan
+  - Stanislav Kalynych
+  - Michael Sheinman
+  description: "Join us for a panel discussion with industry professionals from WGM, Northland Power, RBC,
+    and Circle Internet Financial to learn about their experiences and advice on how to land
+    an internship or new grad position!"
+  recording: https://www.youtube.com/watch?v=JCCMMyv25LI
+  slides: Devfest - Internship Panel.pdf
+- name: Mental Health Panel Talk
+  date: '11-24'
+  host:
+  - Jeremy Lim
+  - Leila Uy
+  description: "Join us for a panel discussion with alumnus and graduate students to learn about
+    their experiences and advice on how to maintain your mental health while studying and working
+    in tech!"
+  recording: https://www.youtube.com/watch?v=o3sUmGp4g9Q
+  slides: Devfest - Mental Health Panel.pdf
 
 Miscellaneous:
 - name: Make your own Discord Bot
@@ -216,3 +260,11 @@ Miscellaneous:
     ‎Group formation\n\U0001F538 ‎Past project examples\n\U0001F538 ‎Q&A time"
   slides: Community Projects Info Session Fall 2023.pdf
   recording: https://youtu.be/u7FoOXD8elQ
+- name: Mastering Leetcode
+  date: '11-24'
+  host:
+  - Jesse Han
+  description: "Join us for a workshop on mastering Leetcode! We'll be going over
+    common interview questions and how to approach them, as well as some tips and
+    tricks to help you ace your next interview."
+  recording: https://www.youtube.com/watch?v=DfsQEF0Io_s
