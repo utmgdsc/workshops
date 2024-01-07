@@ -178,6 +178,7 @@ Cybersecurity:
     over common vulnerabilities and how to prevent them, as well as some tips and
     tricks to help you secure your next web app."
   slides: GDSC DevFest Web Security Presentation.pdf
+  code: https://github.com/utmgdsc/devfest-web-sec
   recording: https://www.youtube.com/watch?v=VzZdTNjJQaA
 
 Panels:
