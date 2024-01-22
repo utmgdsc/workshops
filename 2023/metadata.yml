@@ -58,6 +58,8 @@ Backend:
   description: "Get hands-on experience \U0001F60B and learn how to create fast, secure,
     and scalable backend systems that drive your websites and applications."
   slides: Backend Workshop - GDSC x CSSC 2023.pdf
+
+Database and DevOps:
 - name: Database Workshop
   date: '02-20'
   host:
