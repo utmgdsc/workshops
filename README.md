@@ -13,13 +13,16 @@ Each file in /:year/metadata.yml has the following schema:
 - Each key represents a category of workshop.
 - Each key contains an array of objects, where each object represents a single workshop.
 - The object has the following properties:
-  - `name` (string): The name of the workshop.
-  - `host` (string): An array of the names of the hosts of the workshop.
-  - `description` (string): The title of the workshop.
-  - `date` (string): The date of the workshop in MM-DD format, since the year is already specified in the file path.
-  - `code` (string, optional): The URL to the starter code code of the workshop.
-  - `slides` (string, optional): The filename of the slides of the workshop. The slides must be in the same directory as the metadata.yml file.
-  - `recording` (string, optional): The URL to the recording of the workshop.
+
+| Property    | Type   | Optional | Description                                                                                   |
+| ----------- | ------ | -------- | --------------------------------------------------------------------------------------------- |
+| name        | string | No       | The name of the workshop.                                                                      |
+| host        | string or string[] | No       | An array of the names of the hosts of the workshop.                                           |
+| description | string | No       | The title of the workshop.                                                                     |
+| date        | string | No       | The date of the workshop in MM-DD format, since the year is already specified in the file path. |
+| code        | string | Yes      | The URL to the starter code code of the workshop.                                              |
+| slides      | string | Yes      | The filename of the slides of the workshop. The slides must be in the same directory as the metadata.yml file. |
+| recording   | string | Yes      | The URL to the recording of the workshop.                                                      |
 
 ## Static API
 
