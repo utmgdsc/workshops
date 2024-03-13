@@ -228,7 +228,8 @@ Panels:
 Miscellaneous:
 - name: Google Appscript
   date: '02-21'
-  host: Ido Ben Haim
+  host: 
+  - Ido Ben Haim
   description: Learn how to use Google Appscript to automate tasks in Google Sheets and Google Docs!
   slides: Google Appscript.pdf
   code: https://gist.github.com/gdscbot/550bb855b7b4f072eb49cb1b8da4984c
