@@ -17,7 +17,7 @@ Each file in /:year/metadata.yml has the following schema:
 | Property    | Type   | Optional | Description                                                                                   |
 | ----------- | ------ | -------- | --------------------------------------------------------------------------------------------- |
 | name        | string | No       | The name of the workshop.                                                                      |
-| host        | string or string[] | No       | An array of the names of the hosts of the workshop.                                           |
+| host        | string[] | No       | An array of the names of the hosts of the workshop.                                           |
 | description | string | No       | The title of the workshop.                                                                     |
 | date        | string | No       | The date of the workshop in MM-DD format, since the year is already specified in the file path. |
 | code        | string | Yes      | The URL to the starter code code of the workshop.                                              |
