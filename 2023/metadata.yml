@@ -15,7 +15,8 @@ Git:
 Frontend:
 - name: React Workshop
   date: '02-22'
-  host: Daniyal Bokhari
+  host:
+  - Daniyal Bokhari
   description: Learn how to use React, a popular frontend library, to build dynamic and interactive web applications!
   slides: React Workshop Slides.pdf
   code: https://github.com/daniyalb/react-demo
