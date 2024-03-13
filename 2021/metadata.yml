@@ -1,47 +1,48 @@
 Git:
-- name: Git Init (Introduction to Git)
-  date: '09-16'
-  host:
-  - Daniel Laufer
-  description: |-
-    Get an overview of Git and GitHub including what they are, their purpose, how they work, how they interact with each other, and much more.
+  - name: Git Init (Introduction to Git)
+    date: "09-16"
+    host:
+      - Daniel Laufer
+    description: |-
+      Get an overview of Git and GitHub including what they are, their purpose, how they work, how they interact with each other, and much more.
 
-    You will learn about essential Git commands and concepts and go through several short demos using them.
+      You will learn about essential Git commands and concepts and go through several short demos using them.
 
-    Additionally, you will learn how to collaborate with others on a project using Git and GitHub, and learn how to contribute to open-source projects.
+      Additionally, you will learn how to collaborate with others on a project using Git and GitHub, and learn how to contribute to open-source projects.
 
-    All of this combined will allow students to learn an essential skill that will follow them through their career in tech!
-  code: https://github.com/utmgdsc/git-workshop
-  slides: Git Init (Introduction to Git).pdf
+      All of this combined will allow students to learn an essential skill that will follow them through their career in tech!
+    code: https://github.com/utmgdsc/git-workshop
+    slides: Git Init (Introduction to Git).pdf
 
 Frontend:
-- name: React FUNdamentals
-  date: '10-28'
-  host:
-  - Jarrod Servilla
-  - Daniel Laufer
-  - Milind Vishnoi
-  description: Learn the fundamentals of React!
-  code: https://github.com/utmgdsc/react-workshop
-  slides: Full Stack React Workshop [CSSC x GDSC].pdf
+  - name: React FUNdamentals
+    date: "10-28"
+    host:
+      - Jarrod Servilla
+      - Daniel Laufer
+      - Milind Vishnoi
+    description: Learn the fundamentals of React!
+    code: https://github.com/utmgdsc/react-workshop
+    slides: Full Stack React Workshop [CSSC x GDSC].pdf
 
 Backend:
-- name: Backend Development with AWS & Flask
-  date: '11-25'
-  host:
-  - Daniel Laufer
-  description: Learn about backend development through using Flask, a Python web framework,
-    and Amazon Web Services (AWS), the leading cloud service provider in the world!
-  code: https://github.com/utmgdsc/back-end-workshop
-  slides: Back-end (Flask_AWS).pdf
+  - name: Backend Development with AWS & Flask
+    date: "11-25"
+    host:
+      - Daniel Laufer
+    description:
+      Learn about backend development through using Flask, a Python web framework,
+      and Amazon Web Services (AWS), the leading cloud service provider in the world!
+    code: https://github.com/utmgdsc/back-end-workshop
+    slides: Back-end (Flask_AWS).pdf
 
 Machine Learning:
-- name: Machine Learning and AI - with GDE Tanmay Bakshi
-  date: '11-10'
-  host:
-  - Tanmay Bakshi
-  description: |-
-    Google Developer Experts - Speaker Series:
+  - name: Machine Learning and AI - with GDE Tanmay Bakshi
+    date: "11-10"
+    host:
+      - Tanmay Bakshi
+    description: |-
+      Google Developer Experts - Speaker Series:
 
-    Tanmay Bakshi is a LinkedIn Top 25 Tech Influencer, a bestselling author, a TED & Keynote Speaker, GDE, IBM Advisory Software Engineer and more - all at 18 years old. Join our talk to hear more about Tanmay's journey and accomplishments in Machine Learning and Artificial Intelligence, highlighting some of his most recent projects and insightful advice - and ask him some questions of your own!
-  recording: https://www.youtube.com/watch?v=UcpSXgnEW3w
+      Tanmay Bakshi is a LinkedIn Top 25 Tech Influencer, a bestselling author, a TED & Keynote Speaker, GDE, IBM Advisory Software Engineer and more - all at 18 years old. Join our talk to hear more about Tanmay's journey and accomplishments in Machine Learning and Artificial Intelligence, highlighting some of his most recent projects and insightful advice - and ask him some questions of your own!
+    recording: https://www.youtube.com/watch?v=UcpSXgnEW3w

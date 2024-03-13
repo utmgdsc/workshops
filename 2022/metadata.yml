@@ -1,98 +1,105 @@
 Git:
-- name: Git Workshop
-  date: '11-06'
-  host:
-  - Manjoy Malhotra
-  description: "Have you been struggling to start contributing to our Open Source
-    Initiative projects? Do you just need a refresher for CSC207?\n\nNo matter if
-    you're from UTM, UTSG, or even high school, git a head start by attending our
-    workshop, entirely online! \U0001F419\n\nYou'll be even more ready to win prizes
-    (maybe from even GitHub \U0001F440) by contributing to our open source projects
-    \U0001F440\U0001F440\U0001F440\U0001F440\n\nWe've be covering the basics of how
-    git works, so that you'll be set up for contribution in no time."
-  slides: Git Workshop.pdf
-  recording: https://www.youtube.com/watch?v=K1V_xtcGCl4&t=3s
+  - name: Git Workshop
+    date: "11-06"
+    host:
+      - Manjoy Malhotra
+    description:
+      "Have you been struggling to start contributing to our Open Source
+      Initiative projects? Do you just need a refresher for CSC207?\n\nNo matter if
+      you're from UTM, UTSG, or even high school, git a head start by attending our
+      workshop, entirely online! \U0001F419\n\nYou'll be even more ready to win prizes
+      (maybe from even GitHub \U0001F440) by contributing to our open source projects
+      \U0001F440\U0001F440\U0001F440\U0001F440\n\nWe've be covering the basics of how
+      git works, so that you'll be set up for contribution in no time."
+    slides: Git Workshop.pdf
+    recording: https://www.youtube.com/watch?v=K1V_xtcGCl4&t=3s
 
 Frontend:
-- name: 'CSSC × GDSC: Frontend Workshop'
-  date: '11-18'
-  host:
-  - Giang Bui
-  - Brian Zhang
-  description: We have teamed up with CSSC to bring you a workshop to get familiar
-    with React AND UI/UX design!
-  code: https://github.com/utm-cssc/frontend-workshop-2022
-  slides: React Workshop.pdf
-  recording: https://www.youtube.com/watch?v=DYGzO8eYwT4
-
+  - name: "CSSC × GDSC: Frontend Workshop"
+    date: "11-18"
+    host:
+      - Giang Bui
+      - Brian Zhang
+    description:
+      We have teamed up with CSSC to bring you a workshop to get familiar
+      with React AND UI/UX design!
+    code: https://github.com/utm-cssc/frontend-workshop-2022
+    slides: React Workshop.pdf
+    recording: https://www.youtube.com/watch?v=DYGzO8eYwT4
 
 Backend:
-- name: 'CSSC × GDSC: Backend Workshop'
-  date: '11-28'
-  host:
-  - Manjoy Malhotra
-  - Manav Bhojak
-  description: Learn how to utilize Express.js, a back end web application framework
-    useful for Node.js
-  code: https://github.com/utm-cssc/backend-express-workshop-2022
-  slides: Express.pdf
+  - name: "CSSC × GDSC: Backend Workshop"
+    date: "11-28"
+    host:
+      - Manjoy Malhotra
+      - Manav Bhojak
+    description:
+      Learn how to utilize Express.js, a back end web application framework
+      useful for Node.js
+    code: https://github.com/utm-cssc/backend-express-workshop-2022
+    slides: Express.pdf
 Database and DevOps:
-- name: DevOps Workshop Part 1
-  date: '01-20'
-  host:
-  - Daniel Laufer
-  description: Learn all about DevOps, and get the chance to set up automated deployment
-    and testing of your applications using GitHub Actions and Firebase!
-  code: https://github.com/utmgdsc/devops-part-1
-  slides: DevOps Workshop Part 1.pdf
-- name: Docker Workshop
-  date: '03-11'
-  host:
-  - Daniel Laufer
-  - Ritvik Bhardwaj
-  description: Learn all about Docker and how to containerize your applications!
-  code: https://github.com/utmgdsc/docker-workshop
-  slides: Docker workshop GDSC_CSSC.pdf
+  - name: DevOps Workshop Part 1
+    date: "01-20"
+    host:
+      - Daniel Laufer
+    description:
+      Learn all about DevOps, and get the chance to set up automated deployment
+      and testing of your applications using GitHub Actions and Firebase!
+    code: https://github.com/utmgdsc/devops-part-1
+    slides: DevOps Workshop Part 1.pdf
+  - name: Docker Workshop
+    date: "03-11"
+    host:
+      - Daniel Laufer
+      - Ritvik Bhardwaj
+    description: Learn all about Docker and how to containerize your applications!
+    code: https://github.com/utmgdsc/docker-workshop
+    slides: Docker workshop GDSC_CSSC.pdf
 
 Machine Learning:
-- name: Machine Learning Workshop 1
-  date: '10-25'
-  host:
-  - Riddhesh Shah
-  description: First of a series of machine learning workshops. Introduction to basic
-    machine learning concepts and a non-math approach to Machine Learning. Build your
-    first machine model using a Kaggle dataset!  We will be covering basic concepts
-    such as decision trees/forests, overfitting/underfitting, building the intuition
-    behind how gradients are used for learning algorithms and hyper parameter tuning
-    to help your model hit that sweet spot.  We will be using guided Kaggle labs for
-    the workshop and help you move closer to getting your first Kaggle certification!
-    All you need is some basic python knowledge and a laptop.
-  code: https://www.kaggle.com/learn/intro-to-machine-learning
-- name: 'Playing God: controlling the perception of AI'
-  date: '11-04'
-  host:
-  - Riddhesh Shah
-  description: The workshop will include an explanation of feature engineering topics,
-    in a manner in which people with low technical skills can understand (as much
-    as possible). This will be accompanied by the Mutual Information, PCA and Target
-    Encoding labs.
-  code: https://www.kaggle.com/learn/feature-engineering
-- name: 'Computer Vision: See How Computers See'
-  date: '11-22'
-  host:
-  - Riddhesh Shah
-  description: This workshop will include learning about convolutional neural networks
-    and taking a look at neuron activations to understand the feature extraction process
-    during a simple image classification task. We will build our own convnets on Kaggle
-    to continue our machine learning certification!
-  code: https://www.kaggle.com/learn/computer-vision
+  - name: Machine Learning Workshop 1
+    date: "10-25"
+    host:
+      - Riddhesh Shah
+    description:
+      First of a series of machine learning workshops. Introduction to basic
+      machine learning concepts and a non-math approach to Machine Learning. Build your
+      first machine model using a Kaggle dataset!  We will be covering basic concepts
+      such as decision trees/forests, overfitting/underfitting, building the intuition
+      behind how gradients are used for learning algorithms and hyper parameter tuning
+      to help your model hit that sweet spot.  We will be using guided Kaggle labs for
+      the workshop and help you move closer to getting your first Kaggle certification!
+      All you need is some basic python knowledge and a laptop.
+    code: https://www.kaggle.com/learn/intro-to-machine-learning
+  - name: "Playing God: controlling the perception of AI"
+    date: "11-04"
+    host:
+      - Riddhesh Shah
+    description:
+      The workshop will include an explanation of feature engineering topics,
+      in a manner in which people with low technical skills can understand (as much
+      as possible). This will be accompanied by the Mutual Information, PCA and Target
+      Encoding labs.
+    code: https://www.kaggle.com/learn/feature-engineering
+  - name: "Computer Vision: See How Computers See"
+    date: "11-22"
+    host:
+      - Riddhesh Shah
+    description:
+      This workshop will include learning about convolutional neural networks
+      and taking a look at neuron activations to understand the feature extraction process
+      during a simple image classification task. We will build our own convnets on Kaggle
+      to continue our machine learning certification!
+    code: https://www.kaggle.com/learn/computer-vision
 
 Miscellaneous:
-- name: Game Development Workshop
-  date: '03-31'
-  host:
-  - Manushree Saboo
-  description: In this beginner-friendly workshop, we will go through what Unity is,
-    some fundaments about C# for game development, and how do we use the two to create
-    interactive games.
-  code: https://github.com/utmgdsc/Game-Dev-Workshop
+  - name: Game Development Workshop
+    date: "03-31"
+    host:
+      - Manushree Saboo
+    description:
+      In this beginner-friendly workshop, we will go through what Unity is,
+      some fundaments about C# for game development, and how do we use the two to create
+      interactive games.
+    code: https://github.com/utmgdsc/Game-Dev-Workshop
