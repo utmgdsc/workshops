@@ -1,0 +1,26 @@
+Frontend:
+  - name: React Workshop
+    date: "02-22"
+    host:
+      - Daniyal Bokhari
+    description: Learn how to use React, a popular frontend library, to build dynamic and interactive web applications!
+    slides: React Workshop Slides.pdf
+    code: https://github.com/daniyalb/react-demo
+
+Machine Learning:
+- name: 'Intro to LLMs'
+  date: '03-15'
+  host:
+    - Hamza Gondal
+    - Rahul Ravindran
+  description: Join us for an insightful exploration into the world of Large Language Models (LLMs). 📚 In this introductory presentation, we'll delve into the fundamental concepts behind LLMs, their applications, and their impact on various industries. 🌟
+  slides: Intro to LLMs.pdf
+
+Miscellaneous:
+  - name: Google Appscript
+    date: "02-21"
+    host:
+      - Ido Ben Haim
+    description: Learn how to use Google Appscript to automate tasks in Google Sheets and Google Docs!
+    slides: Google Appscript.pdf
+    code: https://gist.github.com/gdscbot/550bb855b7b4f072eb49cb1b8da4984c
