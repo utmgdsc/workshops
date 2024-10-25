@@ -6,6 +6,14 @@ A friendlier way to view these files may be accessed through [our workshop archi
 
 <p xmlns:cc="http://creativecommons.org/ns#" >This work is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution-NonCommercial-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
 
+## Contributing a new workshop
+1. [Fork this repository](https://github.com/utmgdsc/workshops/fork).
+2. Edit the `metadata.yml` file, located in the folder of the year you want to add a workshop to.
+3. Locate or create a new category for the workshop, which are the keys in the `metadata.yml` file.
+4. Refer to the schema below to fill in the details of the workshop. Workshops are represented as objects in the array of the category.
+   - Slides can be uploaded to the same directory as the `metadata.yml` file, and referenced by the filename in the `slides` property.
+5. [Create a pull request](https://github.com/utmgdsc/workshops/compare) to merge your changes into the main repository.
+
 ## Schema
 
 Each file in /:year/metadata.yml has the following schema:
