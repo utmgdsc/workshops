@@ -1,0 +1,60 @@
+{
+    "title": "Workshops",
+    "description": "An object containing a year's worth of workshops.",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://github.com/utmgdsc/workshops/blob/main/schema.json",
+    "patternProperties": {
+        "^.*$": {
+            "description": "The category name, e.g., \"Web Development\", \"Machine Learning\", etc.",
+            "type": "array",
+            "items": {
+                "description": "The metadata of a workshop.",
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "The name of the workshop.",
+                        "type": "string"
+                    },
+                    "host": {
+                        "description": "An array of the names of the hosts of the workshop.",
+                        "items": {
+                            "type": "string"
+                        },
+                        "type": "array"
+                    },
+                    "description": {
+                        "description": "The description of the workshop, e.g., it could be from an Instagram caption or announcement.",
+                        "type": "string"
+                    },
+                    "date": {
+                        "description": "The date of the workshop in MM-DD format, since the year is already specified in the file path.",
+                        "type": "string",
+                        "pattern": "^([0][1-9]|[[1][0-2])-([0-2][0-9]|3[0-1])$"
+                    },
+                    "code": {
+                        "description": "The URL to the starter code code of the workshop.",
+                        "type": "string",
+                        "format": "uri"
+                    },
+                    "slides": {
+                        "description": "The filename of the slides of the workshop. The slides must be in the same directory as the metadata.yml file.",
+                        "type": "string"
+                    },
+                    "recording": {
+                        "description": "The URL to the recording of the workshop.",
+                        "type": "string",
+                        "format": "uri"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "name",
+                    "host",
+                    "description",
+                    "date"
+                ]
+            },
+            "additionalProperties": false
+        }
+    }
+}

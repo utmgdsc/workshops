@@ -32,6 +32,8 @@ Each file in /:year/metadata.yml has the following schema:
 | slides      | string | Yes      | The filename of the slides of the workshop. The slides must be in the same directory as the metadata.yml file. |
 | recording   | string | Yes      | The URL to the recording of the workshop.                                                      |
 
+You may view the [JSON schema](./schema.json) for detailed information.
+
 ## Static API
 
 The "API" allows programmatic access to the workshop archive. It is not a true API, but rather a collection of YML files that can be accessed through GET requests.

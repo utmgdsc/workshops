@@ -1,0 +1,12 @@
+on: [push, pull_request]
+
+jobs:
+  validate-workshops:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate metadata files against schema
+        uses: thiagodnf/yaml-schema-checker@v0.0.12
+        with:
+          yamlFiles: '[0-9][0-9][0-9][0-9]/metadata.yml'
+          jsonSchemaFile: 'schema.json'
