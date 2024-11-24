@@ -13,7 +13,8 @@ Frontend:
       - Benjamin Tsang
     description: Learn how to build and deploy a personal website in 60 minutes using HTML, CSS, and GitHub Pages!
     slides: "Personal Website_ Build and Deploy in 60 Min.pdf"
-    code: https://www.youtube.com/watch?v=fWB11xJISCU
+    code: https://github.com/ben409049/Personal-Website
+    recording: https://www.youtube.com/watch?v=fWB11xJISCU
 
   - name: "Building a grade tracking application with React and Redux"
     date: "11-01"
