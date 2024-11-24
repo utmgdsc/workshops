@@ -7,6 +7,23 @@ Frontend:
     slides: React Workshop Slides.pdf
     code: https://github.com/daniyalb/react-demo
 
+  - name: "Personal Website: Build and Deploy in 60 Min"
+    date: "10-30"
+    host:
+      - Benjamin Tsang
+    description: Learn how to build and deploy a personal website in 60 minutes using HTML, CSS, and GitHub Pages!
+    slides: "Personal Website_ Build and Deploy in 60 Min.pdf"
+    code: https://www.youtube.com/watch?v=fWB11xJISCU
+
+  - name: "Building a grade tracking application with React and Redux"
+    date: "11-01"
+    host:
+      - Abdullah Shahid
+    description: Learn how to build a grade tracking application using React and Redux!
+    slides: "React and Redux Workshop.pdf"
+    code: https://github.com/nxabdullah/redux-gradetracker-workshop
+    recording: https://www.youtube.com/watch?v=g7dr3mkxXI4
+
 Machine Learning:
 - name: 'Intro to LLMs'
   date: '03-15'
@@ -17,10 +34,11 @@ Machine Learning:
   slides: Intro to LLMs.pdf
 
 Miscellaneous:
-  - name: Google Appscript
+  - name: Automate Everything With Google Apps Script
     date: "02-21"
     host:
       - Ido Ben Haim
-    description: Learn how to use Google Appscript to automate tasks in Google Sheets and Google Docs!
+    description: Learn how to use Google Apps Script to automate tasks in Google Sheets and Google Docs!
     slides: Google Appscript.pdf
     code: https://gist.github.com/gdscbot/550bb855b7b4f072eb49cb1b8da4984c
+    recording: https://www.youtube.com/watch?v=CzL6GL1ZRPA
