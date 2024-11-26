@@ -33,6 +33,12 @@ Machine Learning:
     - Rahul Ravindran
   description: Join us for an insightful exploration into the world of Large Language Models (LLMs). 📚 In this introductory presentation, we'll delve into the fundamental concepts behind LLMs, their applications, and their impact on various industries. 🌟
   slides: Intro to LLMs.pdf
+- name: 'NLP for Beginners'
+  date: '11-26'
+  host:
+    - Benjamin Tsang
+  description: Build you own summarization model for the Talk Tuah podcast
+  slides: NLP for Beginners Workshop.pdf
 
 Miscellaneous:
   - name: Automate Everything With Google Apps Script
