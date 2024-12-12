@@ -295,3 +295,10 @@ Miscellaneous:
       common interview questions and how to approach them, as well as some tips and
       tricks to help you ace your next interview."
     recording: https://www.youtube.com/watch?v=DfsQEF0Io_s
+  - name: Ctrl + Alt + Activism!
+    date: "11-24"
+    host:
+      - Taha Sarfraz
+    description:
+      "Learn about cybersecurity, online privacy, and activism in the cyberspace!"
+    slides: Ctrl+Alt+Activism.pdf
